@@ -1,0 +1,11 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: onlineboutique
+  namespace: shop
+spec:
+  chart:
+    spec:
+      version: ">=0.10.0"
+#  values:
+#

@@ -4,3 +4,4 @@ resources:
   - ../base
 patchesStrategicMerge:
   - values.yaml
+  - gateway.yaml

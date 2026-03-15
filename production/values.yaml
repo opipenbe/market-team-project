@@ -7,5 +7,6 @@ spec:
   chart:
     spec:
       version: ">=0.10.0"
-#  values:
-#
+  values:
+    networkPolicies:
+      enabled: true

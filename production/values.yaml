@@ -9,4 +9,4 @@ spec:
       version: ">=0.10.0"
   values:
     networkPolicies:
-      enabled: true
+      create: true

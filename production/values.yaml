@@ -9,4 +9,7 @@ spec:
       version: ">=0.10.0"
   values:
     networkPolicies:
-      create: true
+      create: false
+    frontend:
+      externalService: false
+    

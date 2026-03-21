@@ -3,6 +3,7 @@ kind: HelmRelease
 metadata:
   name: onlineboutique
   namespace: shop
+timeout: 15m
 spec:
   chart:
     spec:

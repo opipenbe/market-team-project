@@ -13,7 +13,7 @@ spec:
     frontend:
       externalService: false
     loadGenerator:
-      create: false
+      create: true
       name: loadgenerator
       checkFrontendInitContainer: true
       resources:

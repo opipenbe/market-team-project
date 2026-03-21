@@ -12,4 +12,15 @@ spec:
       create: false
     frontend:
       externalService: false
+    loadGenerator:
+      create: true
+      name: loadgenerator
+      checkFrontendInitContainer: true
+      resources:
+        requests:
+          cpu: 300m
+          memory: 256Mi
+        limits:
+          cpu: 500m
+          memory: 512Mi
     

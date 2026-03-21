@@ -3,8 +3,8 @@ kind: HelmRelease
 metadata:
   name: onlineboutique
   namespace: shop
-timeout: 15m
 spec:
+  timeout: 15m
   chart:
     spec:
       version: ">=0.10.0"

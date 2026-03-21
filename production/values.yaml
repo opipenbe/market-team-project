@@ -16,7 +16,7 @@ spec:
     loadGenerator:
       create: true
       name: loadgenerator
-      checkFrontendInitContainer: true
+      checkFrontendInitContainer: false
       resources:
         requests:
           cpu: 300m

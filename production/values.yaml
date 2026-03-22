@@ -11,6 +11,9 @@ spec:
   values:
     networkPolicies:
       create: false
+    seccompProfile:
+      enable: true
+      type: RuntimeDefault
     frontend:
       externalService: false
     loadGenerator:
